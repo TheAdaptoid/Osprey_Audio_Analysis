@@ -1,0 +1,14 @@
+# main libraries
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+ipykernel # jupyter notebooks
+
+# testing and linting
+pytest
+pytest-cov
+pylint
+black
+mypy
