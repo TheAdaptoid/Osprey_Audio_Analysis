@@ -10,7 +10,7 @@ Spotify song popularity prediction project.
 - [RJ Clines](https://github.com/rjc5216)
 - [Connor Kurrack]
 - [Ethan Logsdon]
-- [William Hughes]
+- [William Hughes](https://github.com/Shark8829)
 
 ## Setup and Usage
 
