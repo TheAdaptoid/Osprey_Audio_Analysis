@@ -48,6 +48,57 @@ then run the main script:
 python osprey_audio_analysis/main.py
 ```
 
+## Task List
+
+### Extract, Transform, and Load
+
+- [ ] Load Data
+- [ ] Clean Data
+- [ ] Feature Engineering
+- [ ] Feature Selection
+
+### First Round of Regression
+
+- Feature Selection
+- Train
+- Test
+- Evaluate and Score
+
+### Clustering
+
+- Fitting
+  - K-Means
+    - Euclidean
+    - Manhattan
+    - Chebyshev
+  - DBSCAN
+- Evaluate and Score
+
+### Second Round of Regression
+
+- Feature Selection
+  - With New Genre Labels
+- Train
+- Test
+- Evaluate and Score
+- Compare to First Round
+
+### Visualizations
+
+- Exploratory Analysis
+- First Round Plots
+- Clustering Diagrams
+- Second Round Plots
+
+### Final Report
+
+- Full Text Draft
+- Add Visualizations
+- Add Code Snippets
+- Add Citations
+- Review
+- Submit
+
 ## Course
 
 *Course Number*: CAP-3784

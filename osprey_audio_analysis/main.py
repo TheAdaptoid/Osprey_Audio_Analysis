@@ -1,5 +1,5 @@
 def main() -> None:
-    # Load Data
+    # 1. Load Data
 
     # 2. Clean Data
 
