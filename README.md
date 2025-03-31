@@ -52,10 +52,10 @@ python osprey_audio_analysis/main.py
 
 ### Extract, Transform, and Load
 
-- [ ] Load Data
-- [ ] Clean Data
-- [ ] Feature Engineering
-- [ ] Feature Selection
+- Load Data
+- Clean Data
+- Feature Engineering
+- Feature Selection
 
 ### First Round of Regression
 
@@ -64,7 +64,7 @@ python osprey_audio_analysis/main.py
 - Test
 - Evaluate and Score
 
-### Clustering
+### Clustering Analysis
 
 - Fitting
   - K-Means
