@@ -8,7 +8,7 @@ Spotify song popularity prediction project.
 
 - [Marion Forrest](https://github.com/TheAdaptoid)
 - [RJ Clines](https://github.com/rjc5216)
-- [Connor Kurrack]
+- [Connor Kurrack](https://github.com/ckurrack2)
 - [Ethan Logsdon]
 - [William Hughes](https://github.com/Shark8829)
 
