@@ -3,19 +3,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # load dataset
-dataset = 'cleaned_dataset.csv'
+#ds = 'cleaned_dataset.csv'
 
-try:
-    df = pd.read_csv(dataset)
-except FileNotFoundError:
-    print("Error: 'dataset' was not found.")
-
-    exit()
+df = pd.read_csv('cleaned_dataset.csv')
+df
 
 
 
 #set the style for seaborn
-sns.set(style='whitegrid', palette='muted', font_scale=1.1)
+sns.set_theme(style='whitegrid', palette='muted', font_scale=1.1)
 
 print("Generating first round plots")
 
