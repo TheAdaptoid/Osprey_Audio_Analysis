@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # load dataset
-dataset = 'ourdataset.csv'
+dataset = 'cleaned_dataset.csv'
 
 try:
     df = pd.read_csv(dataset)
