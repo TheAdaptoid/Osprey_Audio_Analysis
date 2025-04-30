@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # load dataset
-df = pd.read_csv('cleaned_dataset.csv')
+df = pd.read_csv('updated_dataset.csv')
+df = df.drop(columns=['Unnamed: 0', 'Unnamed: 0.1'])
 
 
 #try:
@@ -79,17 +80,17 @@ if len(numerical_features) > 1:
     plt.show()
 
 
-
+# dont really need this and will not include this graphs with the submited final
 #scatter plot for important relationships this only shows 2 features will probably need to add more
-if 'feature1' in df.columns and 'feature2' in df.columns:
+if 'popularity' in df.columns and 'energy' in df.columns:
     print("Plotting scatter plot for feature1 vs feature2")
 
     plt.figure(figsize=(6, 6))
-    sample_df = df[['feature1', 'feature2']].dropna()
+    sample_df = df[['popularity', 'energy']].dropna()
 
     if len(sample_df) > 5000:
         sample_df = sample_df.sample(1000, random_state=1)
-    sns.scatterplot(x='feature1', y='feature2', data=sample_df, alpha=0.5)
+    sns.scatterplot(x='popularity', y='energy', data=sample_df, alpha=0.5)
 
 
     plt.title('Scatter Plot of Feature1 vs. Feature2')
