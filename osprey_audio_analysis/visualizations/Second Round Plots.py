@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset and remove the first column if needed
-df = pd.read_csv('updated_dataset.csv')
+df = pd.read_csv('cleaned_dataset.csv')
 df = df.drop(columns=['Unnamed: 0', 'Unnamed: 0.1'])
 
 
